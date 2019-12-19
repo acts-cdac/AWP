@@ -1,0 +1,60 @@
+.Green-Move {
+  color: green;
+  position: relative;
+  top: 25px;
+  right: 15px;
+}
+body {
+  padding: 0;
+  margin: 10px;
+  font-size: 95%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+button {
+}
+
+nav {
+  width: 25%;
+  float: left;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+.menuItem {
+  width: 100%;
+}
+div#mainContent {
+  margin-right: 25vw;
+  margin-left: 25vw;
+  padding: 10px;
+  height: 100vh;
+  padding-block-end: 0;
+}
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+.navItem {
+  margin: 5px;
+  padding: 5px;
+}
+/* TODO Print formatting */
+@media print {
+  nav {
+    display: none;
+  }
+}

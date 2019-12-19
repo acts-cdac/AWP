@@ -1,0 +1,57 @@
+[
+  {
+    "Itemname": "Shoe",
+    "Price": 2500,
+    "Category": "Personal"
+  },
+  {
+    "Itemname": "T-Shirt",
+    "Price": 1500,
+    "Category": "Garments"
+  },
+  {
+    "Itemname": "Book - Ignited Minds",
+    "Price": 350,
+    "Category": "Stationery"
+  },
+  {
+    "Itemname": "Bag",
+    "Price": 500,
+    "Category": "Luggage"
+  },
+  {
+    "Itemname": "Vicks Inhaler",
+    "Price": 40,
+    "Category": "Pharmaceutical"
+  },
+  {
+    "Itemname": "Notebook",
+    "Price": 50,
+    "Category": "Stationery"
+  },
+  {
+    "Itemname": "Apple Pro XDR Display Stand",
+    "Price": 75000,
+    "Category": "Computer Accessories"
+  },
+  {
+    "Itemname": "Raspberry Pi 4",
+    "Price": 4000,
+    "Category": "Computers"
+  },
+  {
+    "Itemname": "Acer Monitor",
+    "Price": 5000,
+    "Category": "Computer Accessories"
+  },
+  {
+    "Itemname": "AMD Ryzen Threadripper 64 core 128 threads",
+    "Price": 250000,
+    "Category": "Computer Components"
+  },
+  {
+    "Itemname": "Kadai Paneer",
+    "Price": 200,
+    "Category": "Food"
+  }
+]

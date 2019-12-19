@@ -1,0 +1,48 @@
+.Green-Move {
+  color: green;
+  position: relative;
+  top: 25px;
+  right: 15px;
+}
+body {
+  padding: 0;
+  margin: 10px;
+  font-size: 95%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  border: 1px solid black;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 8em;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+nav {
+  width: 25%;
+  float: left;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.menuItem {
+  width: 100%;
+}
+div#mainContent {
+  margin-right: 25vw;
+  margin-left: 25vw;
+}
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+/* TODO Print formatting */
+@media print {
+  nav {
+    display: none;
+  }
+}
