@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <div>
+      <p id="welcome">Let us know how we can improve CDAC ACTS</p>
+      <form action="post">
+        <table>
+          <tr>
+            <td class="labels">
+              <label for="name">* Name: </label>
+            </td>
+            <td>
+              <input
+                id="name"
+                type="text"
+                maxlength="30"
+                required
+                placeholder="Enter your name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="labels">
+              <label for="email">* Email: </label>
+            </td>
+            <td>
+              <input
+                id="email"
+                type="email"
+                maxlength="30"
+                required
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="labels">
+              <label for="age">* Age: </label>
+            </td>
+            <td>
+              <input
+                id="age"
+                type="number"
+                min="0"
+                max="150"
+                required
+                placeholder="Age"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="labels">
+              <label for="role">
+                Which option best describes your current role?
+              </label>
+            </td>
+            <td>
+              <select id="role">
+                <option>Student</option>
+                <option>Faculty</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="labels"
+              style="
+            padding-top: 0px;
+            padding-bottom: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
+        "
+            >
+              <label for="recommend"
+                >How likely is that you would recommend CDAC ACTS to a
+                friend?</label
+              >
+            </td>
+            <td>
+              <input name="recommend" type="radio" value="0" />Definitely <br />
+              <input name="recommend" type="radio" value="1" />Maybe<br />
+              <input name="recommend" type="radio" value="2" required />Not Sure
+            </td>
+          </tr>
+          <tr>
+            <td class="labels">
+              <label for="cdaclike">What do you like most in CDAC ACTS? </label>
+            </td>
+            <td>
+              <select id="cdaclike" type="text">
+                <option selected>Air Conditioning</option>
+                <option>Canteen Food</option>
+                <option>IT Infrastructure</option>
+                <option>Classrooms</option>
+                <option>Teaching Faculty</option>
+                <option>The View outside the canteen</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="labels"
+              style="padding-top: 0px;
+            padding-bottom: 110px;"
+            >
+              <label for="improve">
+                Things that should be improved in the future (Check all that
+                apply):
+              </label>
+            </td>
+            <td>
+              <input name="improve1" type="checkbox" value="0" />Quality and
+              variety of food and better seating in canteen<br />
+              <input name="improve2" type="checkbox" value="1" /> Decrease
+              number of students per PC<br />
+              <input name="improve3" type="checkbox" value="2" /> Better
+              Classrooms <br />
+              <input name="improve4" type="checkbox" value="3" /> Upgrade
+              Library <br />
+              <input name="improve5" type="checkbox" value="4" /> Centralized
+              Air conditioning <br />
+              <input name="improve6" type="checkbox" value="5" /> Office hours
+              for teaching faculty <br />
+            </td>
+          </tr>
+        </table>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+div {
+  background-color: white;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+body {
+  background-color: cadetblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  text-align: center;
+}
+div {
+  margin: 30px;
+  padding: 30px;
+}
+table {
+  width: 100%;
+}
+
+.labels {
+  text-align: right;
+}
+td {
+  padding: 5px;
+}
